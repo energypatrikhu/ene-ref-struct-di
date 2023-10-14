@@ -3,7 +3,7 @@ var assert = require('assert'),
 	ref = require('ene-ref-napi'),
 	ArrayType = require('ene-ref-array-di')(ref),
 	Struct = require('..')(ref),
-	bindings = require('ene-node-gyp-build')(__dirname);
+	bindings = require('node-gyp')(__dirname);
 
 describe('Struct', function () {
 	afterEach(gc);
