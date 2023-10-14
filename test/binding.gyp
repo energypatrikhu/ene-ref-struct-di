@@ -4,10 +4,10 @@
     'target_name': 'struct_tests',
     'sources': [ 'struct_tests.cc' ],
     'include_dirs': [
-      "<!@(node -p \"require('ene-node-addon-api').include\")"
+      "<!@(node -p \"require('node-addon-api').include\")"
     ],
     'dependencies': [
-      "<!(node -p \"require('ene-node-addon-api').gyp\")"
+      "<!(node -p \"require('node-addon-api').gyp\")"
     ],
     'cflags!': [ '-fno-exceptions' ],
     'cflags_cc!': [ '-fno-exceptions' ],

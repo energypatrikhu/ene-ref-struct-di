@@ -16,10 +16,10 @@
 		"test": "node-gyp rebuild --directory test && nyc mocha --expose-gc --reporter spec"
 	},
 	"dependencies": {
-		"debug": "^4.3.1"
+		"debug": "^4.3.1",
+		"node-addon-api": "^7.0.0"
 	},
 	"devDependencies": {
-		"ene-node-addon-api": "github:energypatrikhu/ene-node-addon-api",
 		"ene-node-gyp-build": "github:energypatrikhu/ene-node-gyp-build",
 		"ene-ref-array-di": "github:energypatrikhu/ene-ref-array-di",
 		"ene-ref-napi": "github:energypatrikhu/ene-ref-napi",
