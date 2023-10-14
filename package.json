@@ -1,0 +1,29 @@
+{
+	"name": "ene-ref-struct-di",
+	"description": "Create ABI-compliant \"struct\" instances on top of Buffers",
+	"keywords": [
+		"struct",
+		"ref",
+		"abi",
+		"c",
+		"c++",
+		"ffi"
+	],
+	"version": "1.1.1.1",
+	"main": "./lib/struct.js",
+	"license": "MIT",
+	"scripts": {
+		"test": "node-gyp rebuild --directory test && nyc mocha --expose-gc --reporter spec"
+	},
+	"dependencies": {
+		"debug": "^4.3.1"
+	},
+	"devDependencies": {
+		"ene-node-gyp-build": "github:energypatrikhu/ene-node-gyp-build",
+		"mocha": "^7.1.1",
+		"node-addon-api": "^3.0.0",
+		"nyc": "^15.0.0",
+		"ref-array-di": "^1.2.2",
+		"ref-napi": "^3.0.2"
+	}
+}
