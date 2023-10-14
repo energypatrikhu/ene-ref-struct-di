@@ -1,7 +1,7 @@
 'use strict';
 var assert = require('assert'),
-	ref = require('ref-napi'),
-	ArrayType = require('ref-array-di')(ref),
+	ref = require('ene-ref-napi'),
+	ArrayType = require('ene-ref-array-di')(ref),
 	Struct = require('..')(ref),
 	bindings = require('ene-node-gyp-build')(__dirname);
 

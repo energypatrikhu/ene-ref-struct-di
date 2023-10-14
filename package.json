@@ -19,11 +19,11 @@
 		"debug": "^4.3.1"
 	},
 	"devDependencies": {
+		"ene-node-addon-api": "github:energypatrikhu/ene-node-addon-api",
 		"ene-node-gyp-build": "github:energypatrikhu/ene-node-gyp-build",
+		"ene-ref-array-di": "github:energypatrikhu/ene-ref-array-di",
+		"ene-ref-napi": "github:energypatrikhu/ene-ref-napi",
 		"mocha": "^7.1.1",
-		"node-addon-api": "^3.0.0",
-		"nyc": "^15.0.0",
-		"ref-array-di": "^1.2.2",
-		"ref-napi": "^3.0.2"
+		"nyc": "^15.0.0"
 	}
 }

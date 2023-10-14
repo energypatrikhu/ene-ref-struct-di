@@ -15,7 +15,7 @@ using the ref "type" interface.
 
 **Note**: The only difference to `ref-struct` is that this module takes its
 dependency on `ref` via dependency injection, so that it is easier to use
-e.g. `ref-napi` instead.
+e.g. `ene-ref-napi` instead.
 
 Installation
 ------------
